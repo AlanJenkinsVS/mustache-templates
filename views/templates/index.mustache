@@ -1,0 +1,20 @@
+{{% BLOCKS }}
+{{< layouts/_layout }}
+  {{$ title }}{{ document.title }}{{/ title }}
+
+  {{$ stylesheets }}
+    <link rel="stylesheet" href="/views/media/css/tailwind.css">
+    {{! <link rel="stylesheet" href="/assets/css/article.css"> }}
+  {{/ stylesheets }}
+
+  {{$ content }}
+    <p>{{ article.body }}</p>
+
+    {{> components/button }}
+  {{/ content }}
+
+  {{$ scripts }}
+    {{! <script src="/assets/js/default.js"></script> }}
+    {{! <script src="/assets/js/article.js"></script> }}
+  {{/ scripts }}
+{{/ layouts/_layout }}

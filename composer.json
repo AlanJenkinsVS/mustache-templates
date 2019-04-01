@@ -1,0 +1,12 @@
+{
+    "name": "alanjenkins/code",
+    "authors": [
+        {
+            "name": "Alan Jenkins",
+            "email": "alan.jenkins@visualsoft.co.uk"
+        }
+    ],
+    "require": {
+        "mustache/mustache": "~2.7"
+    }
+}
